@@ -41,9 +41,9 @@ correspondente ao *caractere* '1' da tabela ASCII 49.
 
 
 Última versão:
-Versão 2 - nível aventureiro
+Versão 3 - nível Mestre
 
 Mensagem de commit (para referência):
-Desafio: nível aventureiro
+Desafio: nível Mestre
 Criando o jogo de xadrez
-Esta é a versão final do nível aventureiro.
+Esta é a versão final do nível Mestre.

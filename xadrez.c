@@ -41,12 +41,12 @@ correspondente ao *caractere* '1' da tabela ASCII 49.
     ^       Jogador das brancas
 
 Última versão:
-Versão 2 - nível aventureiro
+Versão 3 - nível Mestre
 
 Mensagem de commit (para referência):
-Desafio: nível aventureiro
+Desafio: nível Mestre
 Criando o jogo de xadrez
-Esta é a versão final do nível aventureiro.
+Esta é a versão final do nível Mestre.
 */
 
 
@@ -84,6 +84,7 @@ int main ()
   char cavalo_pos[] = {5, 4}; // linha 5 coluna D
   
   int i, j; // Índices genéricos
+  int n_linhas, n_colunas; // Contadores genéricos
   int n_movimentos;
   
   // Movimentação da torre 5 casas para a direita
@@ -96,7 +97,7 @@ int main ()
     imprime_posicao(torre_pos, "Direita");
   }
 
-  // Movimentação do bispo torre 5 casas para cima e para a direita
+  // Movimentação do bispo 5 casas para cima e para a direita
   //
   printf("\nMove o bispo 5 casas para cima e para a direita...\n\n");
   imprime_posicao(bispo_pos, "Bispo posição inicial");
@@ -127,8 +128,8 @@ int main ()
   //
   printf("\nMove o cavalo 2 casas para baixo e 1 casa para a esquerda...\n\n");
   imprime_posicao(cavalo_pos, "Cavalo posição inicial");
-  int n_linhas = 2;
-  int n_colunas = 1;
+  n_linhas = 2;
+  n_colunas = 1;
   for (j = 0; j < n_colunas; ++j) {
     cavalo_pos[1]--; // retrocede coluna
     imprime_posicao(cavalo_pos, "Esquerda");
