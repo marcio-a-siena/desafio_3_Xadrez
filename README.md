@@ -24,26 +24,26 @@ Perceba que os números são realmente os valores inteiros. Por exemplo, em '13'
 correspondente à linha 1, coluna "C", o é o byte de valor numérico 1, e não o valor 49
 correspondente ao *caractere* '1' da tabela ASCII 49.
 
-^      Jogador das pretas
-^       >>>>>>>>>> COLUNAS >>>>>>>>>>
-^       A   B   C   D   E   F   G   H
-^    8                                 8
-L    7                                 7
-I    6                                 6
-N    5                                 5
-H    4                                 4
-A    3                                 3
-S    2                                 2
-^    1                                 1
-^       A   B   C   D   E   F   G   H
-^       >>>>>>>>>> COLUNAS >>>>>>>>>>
-^       Jogador das brancas
+    ^      Jogador das pretas
+    ^       >>>>>>>>>> COLUNAS >>>>>>>>>>
+    ^       A   B   C   D   E   F   G   H
+    ^    8                                 8
+    L    7                                 7
+    I    6                                 6
+    N    5                                 5
+    H    4                                 4
+    A    3                                 3
+    S    2                                 2
+    ^    1                                 1
+    ^       A   B   C   D   E   F   G   H
+    ^       >>>>>>>>>> COLUNAS >>>>>>>>>>
+    ^       Jogador das brancas
 
 
 Última versão:
-Versão 1 - nível novato
+Versão 2 - nível aventureiro
 
 Mensagem de commit (para referência):
-Desafio: nível novato
+Desafio: nível aventureiro
 Criando o jogo de xadrez
-Esta é a versão final do nível novato.
+Esta é a versão final do nível aventureiro.

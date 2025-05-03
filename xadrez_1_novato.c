@@ -41,12 +41,12 @@ correspondente ao *caractere* '1' da tabela ASCII 49.
     ^       Jogador das brancas
 
 Última versão:
-Versão 2 - nível aventureiro
+Versão 1 - nível novato
 
 Mensagem de commit (para referência):
-Desafio: nível aventureiro
+Desafio: nível novato
 Criando o jogo de xadrez
-Esta é a versão final do nível aventureiro.
+Esta é a versão final do nível novato.
 */
 
 
@@ -76,14 +76,13 @@ int main ()
 {
 
 
-  printf("\n********** DESAFIO: JOGO DE XADREZ - AVENTUREIRO **********\n\n");
+  printf("\n********** DESAFIO: JOGO DE XADREZ - NOVATO **********\n\n");
 
-  char torre_pos[]  = {1, 1}; // linha 1 coluna A
-  char bispo_pos[]  = {3, 1}; // linha 3 coluna A
+  char torre_pos[] = {1, 1}; // linha 1 coluna A
+  char bispo_pos[] = {3, 1}; // linha 3 coluna A
   char rainha_pos[] = {4, 8}; // linha 4 coluna H
-  char cavalo_pos[] = {5, 4}; // linha 5 coluna D
   
-  int i, j; // Índices genéricos
+  int i;
   int n_movimentos;
   
   // Movimentação da torre 5 casas para a direita
@@ -122,23 +121,6 @@ int main ()
     imprime_posicao(rainha_pos, "Esquerda");
     ++i;
   } while (i < n_movimentos);
-
-  // Movimentação do cavalo 2 casas para baixo e 1 casa para a esquerda
-  //
-  printf("\nMove o cavalo 2 casas para baixo e 1 casa para a esquerda...\n\n");
-  imprime_posicao(cavalo_pos, "Cavalo posição inicial");
-  int n_linhas = 2;
-  int n_colunas = 1;
-  for (j = 0; j < n_colunas; ++j) {
-    cavalo_pos[1]--; // retrocede coluna
-    imprime_posicao(cavalo_pos, "Esquerda");
-    i = 0;
-    while (i < n_linhas) {
-      cavalo_pos[0]--; // retrocede linha
-      imprime_posicao(cavalo_pos, "Baixo");
-      ++i;
-    }
-  }
 
 
   printf("\n");
